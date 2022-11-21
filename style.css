@@ -32,6 +32,22 @@ p{
 #cabeçalho div a:hover{
     color: rgb(122, 122, 122) ;
 }
+#cabeçalho nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#cabeçalho nav ul li a:hover{
+    color: rgb(122, 122, 122);
+}
+#cabeçalho nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+/* Sobre mim */
 #about-me{
     position: absolute;
     margin-left: 20%;
@@ -58,21 +74,6 @@ p{
 }
 #fontsize{
     font-size: 20px;
-}
-#cabeçalho nav ul{
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    margin-right: 50px;
-    font-size: 20px;
-    margin-top: 10px;
-}
-#cabeçalho nav ul li a:hover{
-    color: rgb(122, 122, 122);
-}
-#cabeçalho nav ul li a{
-    text-decoration: none;
-    color:white;
 }
 #foto{
     margin-top: 200px;
