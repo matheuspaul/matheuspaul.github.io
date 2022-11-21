@@ -50,12 +50,10 @@ p{
 }
 /* Sobre mim */
 #about-me{
-    position: absolute;
-    margin-left: 17%;
-    margin-top: 300px;
     max-width: 500px;
     font-size: 24px;
     text-align: center;
+    position: flex;
 }
 #main-description{
     padding: 20px;
@@ -78,44 +76,23 @@ p{
     font-size: 20px;
 }
 #foto{
-    margin-top: 240px;
     border-radius: 50px;
-    position: absolute;
-    margin-left: 72%;
-    float: right;
     width: 350px;
 }
 #foto-pessoal{
-    margin-top: 740px;
-    border-radius: 50px;
-    position: absolute;
-    margin-left: 74%;
 }
 /* habilidades */
 #habilidades{
-    position: absolute;
-    margin-top: 900px;
-    margin-left: 15px;
-    font-size: 24px;
-    text-align: left;
-    display: flex;
+
 }
 #habilidades-title{
     padding: 20px;
-    float: left;
-    margin-top: 110px;
 }
 #habilidades ul{
     padding: 20px 60px 20px 60px ;
 }
 #proativo{
-    max-width: 650px;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    background-color: #4353cb;;
-    border-radius: 30%;
-    text-align: center;
-    padding-top: 65px;
+
 }
 #proativo:hover{
     background-color: chartreuse;
@@ -132,20 +109,11 @@ p{
     color: chartreuse;
 }
 #projetos{
-    text-align: center;
-    position: absolute;
-    margin-top: 1500px;
-    font-size: 24px;
-    margin-left: 30%;
-    max-width: 40%;
+
 }
 #contato{
-    flex-direction: column;
-    text-align: center;
-    position: absolute;
-    margin-top: 2400px;
-    font-size: 24px;
-    margin-left: 46%;
-    max-width: 40%;
 }
-/* contato    ->
+/* contato 
+"https://www.linkedin.com/in/matheus-paul" target="_blank"
+"https://instagram.com/matheuspaul_?igshid=YmMyMTA2M2Y=" target="_blank"
+   ->
