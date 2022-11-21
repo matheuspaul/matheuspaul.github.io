@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: #4353cb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    padding: 10px
+}
+/*cabeçalho */
+#cabeçalho{
+    border-radius: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: #ff951c;
+    display: flex;
+    top: 0px;
+    padding: 15px;
+    justify-content: space-between;
+    z-index: 4;
+}
+#cabeçalho div{
+    margin-left: 50px;
+}
+#cabeçalho div a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+#cabeçalho div a:hover{
+    color: rgb(122, 122, 122) ;
+}
+#cabeçalho nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#cabeçalho nav ul li a:hover{
+    color: rgb(122, 122, 122);
+}
+#cabeçalho nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+/* Sobre mim */
+#about-me{
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 300px;
+    max-width: 500px;
+    font-size: 24px;
+    text-align: center;
+}
+#main-description{
+    padding: 20px;
+}
+#sheron{
+    text-decoration: none;
+    color: brown;
+}
+#sheron:hover{
+    color:rgb(122, 122, 122);
+}
+#trybe{
+    color:rgb(15, 97, 26);
+    text-decoration: none;
+}
+#trybe:hover{
+    color:rgb(122, 122, 122) ;
+}
+#fontsize{
+    font-size: 20px;
+}
+#foto{
+    margin-top: 240px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 72%;
+    float: right;
+    width: 350px;
+}
+#foto-pessoal{
+    margin-top: 740px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 74%;
+}
+/* habilidades */
+#habilidades{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 15px;
+    font-size: 24px;
+    text-align: left;
+    display: flex;
+}
+#habilidades-title{
+    padding: 20px;
+    float: left;
+    margin-top: 110px;
+}
+#habilidades ul{
+    padding: 20px 60px 20px 60px ;
+}
+#proativo{
+    max-width: 650px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: #4353cb;;
+    border-radius: 30%;
+    text-align: center;
+    padding-top: 65px;
+}
+#proativo:hover{
+    background-color: chartreuse;
+}
+#coquetel{
+    text-decoration: none;
+    color: green;
+}
+#coquetel:hover{
+    color:rgb(122, 122, 122) ;
+}
+#solucao-problemas{
+    text-decoration: none;
+    color: chartreuse;
+}
+#projetos{
+    text-align: center;
+    position: absolute;
+    margin-top: 1500px;
+    font-size: 24px;
+    margin-left: 30%;
+    max-width: 40%;
+}
+#contato{
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    margin-top: 2400px;
+    font-size: 24px;
+    margin-left: 46%;
+    max-width: 40%;
+}
+/* contato    ->
