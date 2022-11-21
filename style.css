@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(199,199,255);
+    background: linear-gradient(0deg, rgba(199,199,255,1) 0%, rgba(67,83,203,1) 28%, rgba(0,5,255,1) 100%);
+}
+/*cabeçalho */
+#cabeçalho{
+    width: 100%;
+    position: fixed;
+    background-color: #ff951c;
+    display: flex;
+    top: 0px;
+    padding: 15px;
+}
+#colorname{
+    color: rgb(15, 97, 26);
+}
+#fontsize{
+    font-size: 20px;
+}
+
+/* contato  <a href="https://instagram.com/matheuspaul_?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a> <a
+href="https://www.linkedin.com/in/matheus-paul" target="_blank">Linkedin</a> ->
