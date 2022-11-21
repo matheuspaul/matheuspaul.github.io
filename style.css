@@ -14,6 +14,18 @@ body{
     display: flex;
     top: 0px;
     padding: 15px;
+    justify-content: space-between;
+}
+#cabeçalho div{
+    margin-left: 50px;
+}
+#cabeçalho div a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+#cabeçalho div a:hover{
+    color: rgb(122, 122, 122) ;
 }
 #colorname{
     color: rgb(15, 97, 26);
@@ -21,6 +33,20 @@ body{
 #fontsize{
     font-size: 20px;
 }
-
+#cabeçalho nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#cabeçalho nav ul li a:hover{
+    color: rgb(122, 122, 122);
+}
+#cabeçalho nav ul li a{
+    text-decoration: none;
+    color:white;
+}
 /* contato  <a href="https://instagram.com/matheuspaul_?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a> <a
 href="https://www.linkedin.com/in/matheus-paul" target="_blank">Linkedin</a> ->
