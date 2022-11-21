@@ -1,11 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 body{
-    background: rgb(199,199,255);
-    background: linear-gradient(0deg, rgba(199,199,255,1) 0%, rgba(67,83,203,1) 28%, rgba(0,5,255,1) 72%);
+    background-color: #4353cb;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    padding: 10px
 }
 /*cabeçalho */
 #cabeçalho{
@@ -29,8 +32,29 @@ body{
 #cabeçalho div a:hover{
     color: rgb(122, 122, 122) ;
 }
-#colorname{
-    color: rgb(15, 97, 26);
+#about-me{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 250px;
+    max-width: 500px;
+    font-size: 24px;
+}
+#main-description{
+    padding: 20px;
+}
+#sheron{
+    text-decoration: none;
+    color: brown;
+}
+#sheron:hover{
+    color:rgb(122, 122, 122);
+}
+#trybe{
+    color:rgb(15, 97, 26);
+    text-decoration: none;
+}
+#trybe:hover{
+    color:rgb(122, 122, 122) ;
 }
 #fontsize{
     font-size: 20px;
@@ -51,12 +75,12 @@ body{
     color:white;
 }
 #foto{
-    margin-top: 80px;
+    margin-top: 200px;
     border-radius: 50px;
     position: absolute;
-    margin-left: 79%;
+    margin-left: 72%;
     float: right;
-    width: 300px
+    width: 350px;
 }
 
 /* contato  <a href="https://instagram.com/matheuspaul_?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a> <a
