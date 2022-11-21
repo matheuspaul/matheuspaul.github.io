@@ -50,7 +50,7 @@ p{
     text-align: center;
     align-items: center;
     max-width: 1000px;
-    margin-top: 100px;
+    margin-top: 200px;
     font-size: 24px;
 }
 #main-description{
@@ -80,16 +80,23 @@ p{
 }
 /* habilidades */
 #habilidades{
-
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 170px;
+    font-size: 24px;
 }
 #habilidades-title{
-    padding: 20px;
+    padding-right: 40px;
+    background-color: grafy;
 }
 #habilidades ul{
-    padding: 20px 60px 20px 60px ;
+    max-width: 500px;
 }
 #proativo{
-    /*tenho extremo orgulho...*/
+    max-width: 800px;
+    text-align: center;
+    border-radius: 15px;
 }
 #proativo:hover{
     background-color: chartreuse;
@@ -109,11 +116,15 @@ p{
 #solucao-problemas:hover{
     color:rgb(122, 122, 122) ;
 }
-#projetos{
-}
 #contato{
+    font-size: 24px;
+    text-align: center;
 }
-/* contato 
-"https://www.linkedin.com/in/matheus-paul" target="_blank"
-"https://instagram.com/matheuspaul_?igshid=YmMyMTA2M2Y=" target="_blank"
-   ->
+#contato div ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 730px;
+}
+#contato div ul li{
+}
