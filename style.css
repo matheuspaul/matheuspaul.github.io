@@ -85,6 +85,12 @@ p{
     float: right;
     width: 350px;
 }
+#foto-pessoal{
+    margin-top: 740px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 74%;
+}
 /* habilidades */
 #habilidades{
     position: absolute;
@@ -105,9 +111,9 @@ p{
 #proativo{
     max-width: 650px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     background-color: #4353cb;;
-    border-radius: 35%;
+    border-radius: 30%;
     text-align: center;
     padding-top: 65px;
 }
@@ -124,6 +130,23 @@ p{
 #solucao-problemas{
     text-decoration: none;
     color: chartreuse;
+}
+#projetos{
+    text-align: center;
+    position: absolute;
+    margin-top: 1500px;
+    font-size: 24px;
+    margin-left: 30%;
+    max-width: 40%;
+}
+#contato{
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    margin-top: 2400px;
+    font-size: 24px;
+    margin-left: 46%;
+    max-width: 40%;
 }
 /* contato  <a href="https://instagram.com/matheuspaul_?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></i></a> <a
 href="https://www.linkedin.com/in/matheus-paul" target="_blank"><i class="fa-brands fa-linkedin"></i></a> ->
