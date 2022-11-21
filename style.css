@@ -4,10 +4,12 @@
 }
 body{
     background: rgb(199,199,255);
-    background: linear-gradient(0deg, rgba(199,199,255,1) 0%, rgba(67,83,203,1) 28%, rgba(0,5,255,1) 100%);
+    background: linear-gradient(0deg, rgba(199,199,255,1) 0%, rgba(67,83,203,1) 28%, rgba(0,5,255,1) 72%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /*cabeçalho */
 #cabeçalho{
+    border-radius: 50px;
     width: 100%;
     position: fixed;
     background-color: #ff951c;
@@ -48,5 +50,14 @@ body{
     text-decoration: none;
     color:white;
 }
+#foto{
+    margin-top: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 79%;
+    float: right;
+    width: 300px
+}
+
 /* contato  <a href="https://instagram.com/matheuspaul_?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a> <a
 href="https://www.linkedin.com/in/matheus-paul" target="_blank">Linkedin</a> ->
